@@ -130,7 +130,7 @@
                         <div class="card" style="width: 18rem; height: 23rem;">
                             <div
                                 class="w-100 h-100 d-flex justify-content-center align-items-center overflow-hidden border border-top-0 border-start-0 border-end-0">
-                                <img src="uploads/informasi/<?= $p['gambar'] ?>" class="img-fluid" alt="...">
+                                <img src="uploads/informasi/<?= $p['gambar'] ?>" class="w-100 h-100 object-fit-cover" alt="...">
                             </div>
                             <div class="card-body d-flex flex-column justify-content-between " style="height:150px;">
                                 <h6 class="card-title">

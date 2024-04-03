@@ -15,7 +15,6 @@ $d = mysqli_fetch_object($identitas);
     <title>SMK Muhammadiyah Pencongan</title>
     <link rel="icon" type="image/x-icon" href="assets/img/Logo SMK Muhapen.png">
     <link rel="stylesheet" href="assets/css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-free-6.5.1-web/css/all.min.css">
 </head>
 
 <body>
@@ -73,7 +72,7 @@ $d = mysqli_fetch_object($identitas);
                         <a class="nav-link" href="kontak.php">Kontak</a>
                     </li>
                     <li class="nav-item my-auto">
-                        <a class="nav-link" href="login.php"><button class="btn btn-primary">Login</button></a>
+                        <a class="nav-link" href=""><button class="btn bg-biru kuning fw-bold ">PPBD</button></a>
                     </li>
                 </ul>
             </div>
@@ -81,6 +80,7 @@ $d = mysqli_fetch_object($identitas);
     </nav>
 
     <script src="assets/css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/1eee9c9006.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

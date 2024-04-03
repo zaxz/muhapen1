@@ -56,9 +56,21 @@ p {
 .bg-biru {
   background-color: #29166f;
 }
+.bg-biru:hover {
+  background-color: #1e104f;
+}
+.bg-kuning {
+  background-color: #fff500;
+}
 
+.biru {
+  color: #29166f;
+}
 .kuning {
   color: #fff500;
+}
+.kuning:hover {
+  color: #c4bd00;
 }
 
 hr {
