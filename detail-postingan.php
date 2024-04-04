@@ -3,8 +3,6 @@ $informasi = mysqli_query($conn, "SELECT * FROM informasi LEFT JOIN pengguna ON 
 $j = mysqli_fetch_object($informasi);
 $timestamp = strtotime($j->created_at);
 $monthNumber = date('n', $timestamp);
-
-
 $monthNames = array(
     1 => 'Januari', 2 => 'Februari', 3 => 'Maret', 4 => 'April',
     5 => 'Mei', 6 => 'Juni', 7 => 'Juli', 8 => 'Agustus',
@@ -71,7 +69,7 @@ $monthName = $monthNames[$monthNumber];
 
                     <?php } ?>
                 </div>
-                <!-- akhir postinigan terbaru -->
+                <!-- akhir postingan terbaru -->
             </div>
         </div>
     </div>

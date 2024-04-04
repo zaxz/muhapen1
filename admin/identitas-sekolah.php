@@ -48,16 +48,6 @@
 								<input type="text" name="ig" placeholder="Instagram" value="<?= $d->instagram ?>" class="input-control" required>
 							</div>
 
-							<div class="form-group">
-								<label>Alamat</label>
-								<textarea name="alamat" class="input-control" placeholder="Alamat"><?= $d->alamat ?></textarea>
-							</div>
-
-							<div class="form-group">
-								<label>Google Maps</label>
-								<textarea name="gmaps" class="input-control" placeholder="Google Maps"><?= $d->google_maps ?></textarea>
-							</div>
-
 							
 
 							<input type="submit" name="submit" value="Simpan Perubahan" class="btn btn-blue">

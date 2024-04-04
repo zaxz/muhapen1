@@ -17,7 +17,7 @@
 
             ?>
             <div class="row justify-content-around ">
-                <div class="col-12 col-md-7  bg-white my-3 d-flex flex-column rounded p-4   border"
+                <div class="col-12 col-md-7 bg-white my-3 d-flex flex-column rounded p-4 border"
                     style="height:fit-content;">
                     <h3>Jurusan</h3>
                     <hr class="mx-0">

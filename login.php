@@ -10,7 +10,7 @@ include 'koneksi.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -97,6 +97,8 @@ include 'koneksi.php';
             </div>
         </div>
     </section>
+
+	<script src="../assets/css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

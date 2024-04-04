@@ -4,8 +4,8 @@
 <div class="container-fluid bg-biru text-white ">
     <div
         class="footer container d-flex flex-column flex-md-row text-center text-md-start  justify-content-between py-3">
-        <p class="my-auto ">Copyright © 2024 SMK Muhammadiyah Pencongan | All Rights Reserved </p>
-        <a href="https://t.me/callmejeki" class="text-decoration-none text-white fw-bold my-2 my-md-0">
+        <p class="my-auto ">Copyright © <?= date("Y"); ?> SMK Muhammadiyah Pencongan | All Rights Reserved </p>
+        <a href="https://instagram.com/zaxz.me" class="text-decoration-none text-white fw-bold my-2 my-md-0">
             <p class="my-auto ">Built With <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                     fill="currentColor" width="23" color="red">
                     <path
