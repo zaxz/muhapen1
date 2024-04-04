@@ -53,7 +53,7 @@
 
 	if(isset($_GET['idslider'])){
 
-		$slider = mysqli_query($conn, "SELECT gamar FROM slider WHERE id = '".$_GET['idslider']."' ");
+		$slider = mysqli_query($conn, "SELECT gambar FROM slider WHERE id = '".$_GET['idslider']."' ");
 
 		if(mysqli_num_rows($slider) > 0){
 

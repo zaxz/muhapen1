@@ -1,4 +1,31 @@
-<?php include 'navbar.php' ?>
+<?php include 'navbar.php';
+
+$slider = mysqli_query($conn, "SELECT * FROM slider ORDER BY id DESC");
+$i = 0;
+$div = '';
+        while ($s = mysqli_fetch_array($slider)) {
+            if ($i==0) {
+                $div .='
+                <div class="carousel-item active ratio ratio-16x9" data-bs-interval="5000">
+                        <img src="uploads/slider/'.$s['gambar'].'" class="d-block w-100" alt="...">
+                    </div>
+                ';
+            } 
+            else {
+                $div .='
+                <div class="carousel-item ratio ratio-16x9" data-bs-interval="5000">
+                        <img src="uploads/slider/'.$s['gambar'].'" class="d-block w-100" alt="...">
+                    </div>
+                ';
+            }
+
+            // $div .='</div>';
+            $i++;
+        }
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,22 +41,25 @@
     <!-- slider -->
     <div id="carouselExample" class="carousel slide container" data-bs-ride="carousel" data-aos="fade-down">
         <div class="carousel-inner ">
-            <?php
+
+        <?= $div ?>
+            <!-- <?php
             $slider = mysqli_query($conn, "SELECT * FROM slider ORDER BY id DESC");
+            $i = 0;
+            $div = "";
             if (mysqli_num_rows($slider) > 0) {
                 while ($s = mysqli_fetch_array($slider)) {
                     ?>
                     <div class="carousel-item active ratio ratio-16x9" data-bs-interval="5000">
                         <img src="uploads/slider/<?= $s['gambar'] ?>" class="d-block w-100" alt="...">
                     </div>
-                    <h1></h1>
                 <?php }
 
             } else { ?>
 
                 Tidak ada data
 
-            <?php } ?>
+            <?php } ?> -->
 
 
             <!-- <div class="carousel-item ratio ratio-16x9" data-bs-interval="5000">

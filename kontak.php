@@ -75,7 +75,7 @@ $wa = $d->whatsapp;
                                 <div class="d-flex mb-2 border rounded kartu" style="width: 100%; height: 5.5rem;">
                                     <div
                                         class="overflow-hidden w-50 h-100 d-flex justify-content-center align-items-center overflow-hidden rounded">
-                                        <img src="uploads/informasi/<?= $p['gambar'] ?>" class="img-fluid" alt="">
+                                        <img src="uploads/informasi/<?= $p['gambar'] ?>" class="w-100 h-100 object-fit-cover" alt="">
                                     </div>
                                     <div class="ms-1 d-flex flex-column justify-content-between"
                                         style="width: 55%; height: auto;">
